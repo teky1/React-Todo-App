@@ -36,7 +36,7 @@ const App = () => {
 
 const Todo = () => {
 
-  const [items, setItems] = useState(["Item 1"]);
+  const [items, setItems] = useState(["Learn React"]);
   const [inputVal, setInput] = useState("");
 
   const scrollableArea = useRef();
